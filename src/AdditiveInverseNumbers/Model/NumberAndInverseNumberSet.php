@@ -22,7 +22,7 @@ class NumberAndInverseNumberSet
 
     /**
      * Return pairs based on minimal value
-     * eg. [-1, -1, -1, 1, 1] became negative: 3, positive 2, so there is only 2 pairs, one negative number is without pair
+     * eg. [-1, -1, -1, 1, 1] became negative: 3, positive 2, so there is only 2 pairs, one negative number is without pair.
      */
     public function countPairs(): int
     {
