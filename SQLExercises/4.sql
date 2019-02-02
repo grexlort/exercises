@@ -1,4 +1,4 @@
--- 'date' field should be considered to be escaped or renamed due to use of reserved key of many SQL databases
+-- 'date' field should be considered to be escaped or renamed due to collision of reserved key of many SQL databases
 
 -- MySQL
 SELECT
