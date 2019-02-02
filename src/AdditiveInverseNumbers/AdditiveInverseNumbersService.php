@@ -10,7 +10,7 @@ class AdditiveInverseNumbersService
     private const MAX_NUMBER = 10;
 
     /**
-     * Find quantity of pairs from in array with n numbers from -10 to 10 (without 0).
+     * Find quantity of pairs in array with n numbers from -10 to 10 (without 0).
      *
      * Algorithm:
      *      Step 1: Iterate over numbers, for each absolute number create NumberAndInverseNumberSet object
