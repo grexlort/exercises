@@ -41,6 +41,7 @@ class AdditiveInverseNumbersServiceTest extends TestCase
             [0, [1, 2, 3]],
             [1, [1, -1]],
             [2, [1, -1, 2, 2, -2]],
+            [0, []],
         ];
     }
 
