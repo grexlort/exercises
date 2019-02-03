@@ -1,4 +1,4 @@
--- 'system_user' table should be considered to be escaped or renamed due to collision of reserved key of many SQL databases
+-- escaping or renaming the 'system_user' table should be considered, due to possible collision with reserved key of many SQL databases.
 
 SELECT u.*
 FROM `system_user` u
