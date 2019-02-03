@@ -35,12 +35,12 @@ Requirements: Docker engine with Docker Compose:
 5: `SQLExercises/5.sql`
 
 # Notes #
-2: I decide to use helper model `src/AdditiveInverseNumbers/Model/NumberAndInverseNumberSet.php` to improve encapsulation, 
-it can be done without it (by using 3 plain arrays or anonymous associative array) but it will lead to degrade quality of code
+2: I decided to use helper model `src/AdditiveInverseNumbers/Model/NumberAndInverseNumberSet.php` to improve encapsulation, 
+it could be done without it (by using 3 plain arrays or anonymous associative array) but it would lead to the code quality degradation
 
 3: 
-* Aquarium ecosystem is really hard to be modeled in designed to be synchronous PHP language, 
-event cycles like fish breathing or water filtration is in plain php impossible to archive or will harm performance.
+* Aquarium ecosystem is really hard to model in synchronous PHP language, 
+event cycles like fish breathing or water filtration is (in plain PHP) impossible to archive or will harm performance.
 Accordingly, based on time estimation for this exercises, I assume Aquarium class should be plain class 
 with implemented interface based on exercise specification and child objects like Fish or Filter.
 * Relation between Aquarium, `SwimAbleLifeForms` and events like `lightOff`, `lightOn` or `foodDropedInAquarium` 
@@ -50,11 +50,11 @@ with implemented interface based on exercise specification and child objects lik
   (however there is couple of `Mediator` implementations like `symfony/event-dispatcher`)
   * sake of simplicity of this exercise and time-box
   
-  i decide to use for each loop
+  I decided to use for each loop
   
 4:
-* 'date' field should be considered to be escaped or renamed due to collision of reserved key of many SQL databases
-* I prepare 3 version of this query for MySQL, SQL standard (without `YEAR` non standard function), and with sub-query.
+* escaping or renaming the 'date' field should be considered, due to possible collision with reserved key of many SQL databases.
+* I prepared 3 version of this query for MySQL, SQL standard (without `YEAR` non standard function), and with sub-query.
 
 5:
-* 'system_user' table should be considered to be escaped or renamed due to collision of reserved key of many SQL databases
+* escaping or renaming the 'system_user' table should be considered, due to possible collision with reserved key of many SQL databases.
