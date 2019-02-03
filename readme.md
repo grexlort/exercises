@@ -50,6 +50,11 @@ with implemented interface based on exercise specification and child objects lik
   * sake of simplicity of this exercise and time-box
   
   I decided to use for each loop
+* Key aspect of aquarium is missing in specification - Water, so I decided to add this aspect 
+(Water can be cleaned by Filter and contaminated by adding food)
+* Aquarium system depends on:
+  * `myclabs/php-enum` - enum support
+  * `symfony/event-dispatcher` - dispatching notification about new life form in aquarium
   
 4:
 * escaping or renaming the 'date' field should be considered, due to possible collision with reserved key of many SQL databases.
