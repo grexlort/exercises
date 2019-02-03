@@ -19,8 +19,7 @@ Requirements: Docker engine with Docker Compose:
 
 # Exercises list #
 
-1:
- * `tests/IntegersAddition/AdditionTest.php`
+1:  `tests/IntegersAddition/AdditionTest.php`
 
 2: 
  * implementation : `src/AdditiveInverseNumbers/*`
